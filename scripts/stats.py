@@ -2,7 +2,7 @@
 
 import duckdb
 
-DB_FILE = "../data/processed/Compuspections_merge.parquet"
+DB_FILE = "../data/processed/TruckInspection_score5.parquet"
 
 con = duckdb.connect()
 

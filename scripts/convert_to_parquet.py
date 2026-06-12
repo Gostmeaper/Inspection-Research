@@ -3,8 +3,8 @@
 from pathlib import Path
 import duckdb
 
-RAW = Path("../data/raw/Compuspections_merge.csv")
-OUT = Path("../data/processed/Compuspections_merge.parquet")
+RAW = Path("../data/raw/TruckInspection_score5_completed_merged_Dec10_2025.csv")
+OUT = Path("../data/processed/TruckInspection_score5.parquet")
 
 con = duckdb.connect()
 
